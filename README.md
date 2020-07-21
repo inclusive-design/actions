@@ -2,7 +2,10 @@
 
 This repository is used to vendor 3rd-party actions used by our projects.
 
-Each action gets a subdirectory.
+Rules:
+
+* Each action gets a subdirectory
+* GitHub-owned actions are considered trusted and should not be vendored
 
 ## Usage
 
