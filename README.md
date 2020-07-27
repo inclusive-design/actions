@@ -25,13 +25,8 @@ jobs:
 
 ## Vendoring
 
-To vendor a GitHub actions, fork this repo and follow these steps:
+To vendor a GitHub action:
 
 ```
-$ git remote add upstream-action-name https://github.com/username/repo.git
-$ git fetch upstream-action-name
-$ git checkout -b add-action-name
-$ git subtree add --prefix=action-name upstream-action-name/master --squash
-$ git push
-$ .. open PR
+$ git subtree add --prefix=action_name https://github.com/user/repo_name.git branch_name --squash
 ```
